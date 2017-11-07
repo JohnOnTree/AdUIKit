@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--小面积使用,用于特别需要强调和突出的文字-->
+    <color name="colorPrimaryRed">#FF5A56</color>
+    <!--少量用于标示强调等字体颜色等-->
+    <color name="colorFewGreen">#4C8CF8</color>
+    <!--用于内容区域底色-->
+    <color name="color_white">#FFFFFF</color>
+    <!--用于背景色-->
+    <color name="colorBgGray">#F9F9F9</color>
+    <!--用于分割颜色-->
+    <color name="colorDivideGray">#E8E8E8</color>
+    <!--用于不可点击的按钮颜色,置灰状态-->
+    <color name="colorBtnDisableGray">#CECECE</color>
+    <!--50%纯黑,用于覆盖层设计的遮罩-->
+    <color name="colorHalfBlack">#7E000000</color>
+    <!--用于主要文字-->
+    <color name="colorPrimaryTextBlack">#333333</color>
+    <!--用于次要文字-->
+    <color name="colorSecondaryTextBlack">#666666</color>
+    <!--用于辅助次要文字,提示性文字-->
+    <color name="colorRemindTextBlack">#999999</color>
+    <!--输入框提示颜色-->
+    <color name="colorHintTextBlack">#C8C8C8</color>
+    <!--对话框取消按钮颜色-->
+    <color name="colorDialogGray">#E4E4E4</color>
+    <color name="colorDialogCancel">#4a4a4a</color>
+    <color name="colorDialogHint">#BEBEBE</color>
+    <color name="colorHintColor">#C8C8C8</color>
+    <!--灰色icon-->
+    <color name="colorResourseGray">#D1D1D1</color>
+    <!--选择器标题背景-->
+    <color name="colorSelectTitleGray">#F3F5F9</color>
+    <!--选择器背景-->
+    <color name="colorSelectContentGray">#CDCDCD</color>
+    <!--消息背景-->
+    <color name="bg_yellow">#FFF9ED</color>
+    <color name="disable_gray">#AFAFAF</color>
+    <color name="textDisableGray">#7A7A7A</color>
+    <!--辅助线-->
+    <color name="BgGray">#CCCCCC</color>
+</resources>

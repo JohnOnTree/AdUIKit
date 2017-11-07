@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DeletableEditText">
+        <attr name="hintText" format="string" />
+        <attr name="hintColor" format="color" />
+        <attr name="rightResourse" format="string"/>
+        <attr name="labelText" format="string" />
+        <attr name="isPassVisable" format="boolean" />
+        <attr name="android:inputType"/>
+        <attr name="android:maxLength"/>
+        <attr name="android:maxEms"/>
+        <attr name="android:text"/>
+        <attr name="area" format="string" />
+        <attr name="leftIcon" format="string" />
+        <attr name="leftVisable" format="boolean" />
+        <attr name="rightIcon" format="string" />
+        <attr name="rightVisable" format="boolean" />
+        <attr name="labelLength" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="LabelWithTextView">
+
+    </declare-styleable>
+
+
+    <declare-styleable name="NoticeTextView">
+        <attr name="notice" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingButton">
+        <attr name="btnStr" format="string"/>
+        <attr name="btnTextColor" format="color"/>
+        <attr name="btnBgColor" format="color"/>
+    </declare-styleable>
+
+
+</resources>

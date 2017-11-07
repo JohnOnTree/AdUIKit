@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_Cungaun_tishi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_yellow"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <com.aidai.uikit.views.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="&#xe631;"
+            android:textColor="#D76D1B"/>
+
+        <TextView
+            android:id="@+id/tv_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="未开通恒丰银行存管账户,  立即开通"
+            android:textColor="#d87323"
+            android:textSize="13sp"/>
+
+        <com.aidai.uikit.views.FontTextView
+            android:id="@+id/iv_cun_guan_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:text="&#xe60c;"
+            android:textColor="#D76D1B"/>
+    </LinearLayout>
+
+
+</LinearLayout>

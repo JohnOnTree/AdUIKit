@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UIKitLib</string>
+    <string name="dialog_notice">提示</string>
+    <string name="dialog_content">内容</string>
+    <string name="edittext_input">内容</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_ok">确定</string>
+    <!--svg 图片-->
+    <string name="icon_fount_clear">&#xe60b;</string>
+    <string name="icon_fount_visable">&#xe60d;</string>
+    <string name="icon_fount_invisable">&#xe60e;</string>
+    <string name="icon_fount_right">&#xe60c;</string>
+    <string name="icon_fount_checkbox">&#xe608;</string>
+    <string name="icon_fount_down">&#xe611;</string>
+    <string name="icon_ticket_used">&#xe61e;</string>
+    <string name="icon_ticket_over">&#xe61f;</string>
+    <string name="icon_ticket_destroy">&#xe61d;</string>
+    <string name="icon_everyoneearn">&#xe69f;</string>
+</resources>

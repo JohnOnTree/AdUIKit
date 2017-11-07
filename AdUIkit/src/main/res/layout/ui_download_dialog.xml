@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ui_download_bg"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_large"
+            android:text="新版本特性"
+            android:textColor="@color/colorSecondaryTextBlack"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_large"
+            android:text="5.0.1"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorSecondaryTextBlack"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_large"
+        android:text="新版本特性"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:minLines="5"
+        android:textColor="@color/colorSecondaryTextBlack"/>
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/ui_shape_round_stoke_button_red"
+            android:text="暂时不要"
+            android:textColor="@color/colorPrimaryRed"
+            android:textSize="@dimen/text_mid"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btn_updata"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/ui_shape_round_button_red"
+            android:text="立即升级"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_mid"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/ui_download_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginBottom="5dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/ui_progress_bar"/>
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ui_download_progress"
+            android:layout_marginTop="5dp"
+            android:text="后台下载"
+            android:textColor="@color/colorPrimaryRed"
+            android:textSize="@dimen/text_small"/>
+
+        <TextView
+            android:id="@+id/tv_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/ui_download_progress"
+            android:layout_marginTop="5dp"
+            android:text="0%"
+            android:textColor="@color/colorSecondaryTextBlack"
+            android:textSize="@dimen/text_small"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
